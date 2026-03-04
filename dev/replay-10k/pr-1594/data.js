@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772648571824,
+  "lastUpdate": 1772650085280,
   "repoUrl": "https://github.com/ava-labs/firewood",
   "entries": {
     "Replay 10K PR": [
@@ -30,6 +30,44 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkReplayLog - ns/op",
             "value": 6085917100,
+            "unit": "ns/op",
+            "extra": "3 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReplayLog - commits",
+            "value": 1000,
+            "unit": "commits",
+            "extra": "3 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "ava-labs",
+            "username": "ava-labs"
+          },
+          "committer": {
+            "name": "ava-labs",
+            "username": "ava-labs"
+          },
+          "id": "b9018ac56733b41bdd204ba37c289ac3f9b3dbdf",
+          "message": "feat(replay): performance action (5/5) ",
+          "timestamp": "2026-03-04T00:09:14Z",
+          "url": "https://github.com/ava-labs/firewood/pull/1594/commits/b9018ac56733b41bdd204ba37c289ac3f9b3dbdf"
+        },
+        "date": 1772650084957,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkReplayLog",
+            "value": 6390589531,
+            "unit": "ns/op\t      1000 commits",
+            "extra": "3 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkReplayLog - ns/op",
+            "value": 6390589531,
             "unit": "ns/op",
             "extra": "3 times\n4 procs"
           },
