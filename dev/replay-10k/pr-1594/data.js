@@ -14,7 +14,7 @@ window.BENCHMARK_DATA = {
             "username": "ava-labs"
           },
           "id": "b76ee5e3dbb59fd6f8b7c89bedca312d58d0b8a3",
-          "message": "feat(replay): performance action (5/5) ",
+          "message": "fix: script",
           "timestamp": "2026-03-14T12:43:45Z",
           "url": "https://github.com/ava-labs/firewood/pull/1594/commits/b76ee5e3dbb59fd6f8b7c89bedca312d58d0b8a3"
         },
