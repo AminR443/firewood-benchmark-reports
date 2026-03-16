@@ -70,7 +70,7 @@ window.BENCHMARK_DATA = {
             "username": "ava-labs"
           },
           "id": "30a28da3d98ae2eb8a86d9f0e4e0c7bb63c150f3",
-          "message": "feat(replay): performance action (5/5) ",
+          "message": "perf: change def persist to 25",
           "timestamp": "2026-03-14T12:43:45Z",
           "url": "https://github.com/ava-labs/firewood/pull/1594/commits/30a28da3d98ae2eb8a86d9f0e4e0c7bb63c150f3"
         },
