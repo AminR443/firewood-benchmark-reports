@@ -164,7 +164,7 @@ window.BENCHMARK_DATA = {
             "username": "ava-labs"
           },
           "id": "f128fbe512b80781ff9240a30d4503f386d7b642",
-          "message": "feat(replay): performance action (5/5) ",
+          "message": "feat: new summary",
           "timestamp": "2026-03-14T12:43:45Z",
           "url": "https://github.com/ava-labs/firewood/pull/1594/commits/f128fbe512b80781ff9240a30d4503f386d7b642"
         },
@@ -172,15 +172,9 @@ window.BENCHMARK_DATA = {
         "tool": "go",
         "benches": [
           {
-            "name": "BenchmarkReplayLog",
-            "value": 132075602,
-            "unit": "ns/op\t      1000 commits\t    348652 ns/\t  16010261 ns/commit\t 114484076 ns/propose-on-db",
-            "extra": "3 times\n8 procs"
-          },
-          {
-            "name": "BenchmarkReplayLog - ns/op",
-            "value": 132075602,
-            "unit": "ns/op",
+            "name": "BenchmarkReplayLog - s/op",
+            "value": 0.132075602,
+            "unit": "s/op",
             "extra": "3 times\n8 procs"
           },
           {
@@ -190,21 +184,21 @@ window.BENCHMARK_DATA = {
             "extra": "3 times\n8 procs"
           },
           {
-            "name": "BenchmarkReplayLog - ns/",
-            "value": 348652,
-            "unit": "ns/",
+            "name": "BenchmarkReplayLog - s/",
+            "value": 0.000348652,
+            "unit": "s/",
             "extra": "3 times\n8 procs"
           },
           {
-            "name": "BenchmarkReplayLog - ns/commit",
-            "value": 16010261,
-            "unit": "ns/commit",
+            "name": "BenchmarkReplayLog - s/commit",
+            "value": 0.016010261,
+            "unit": "s/commit",
             "extra": "3 times\n8 procs"
           },
           {
-            "name": "BenchmarkReplayLog - ns/propose-on-db",
-            "value": 114484076,
-            "unit": "ns/propose-on-db",
+            "name": "BenchmarkReplayLog - s/propose-on-db",
+            "value": 0.114484076,
+            "unit": "s/propose-on-db",
             "extra": "3 times\n8 procs"
           }
         ]
