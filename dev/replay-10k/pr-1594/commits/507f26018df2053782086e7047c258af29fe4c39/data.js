@@ -14,7 +14,7 @@ window.BENCHMARK_DATA = {
             "username": "ava-labs"
           },
           "id": "507f26018df2053782086e7047c258af29fe4c39",
-          "message": "feat(replay): performance action (5/5) ",
+          "message": "feat: update log file",
           "timestamp": "2026-03-20T20:06:49Z",
           "url": "https://github.com/ava-labs/firewood/pull/1594/commits/507f26018df2053782086e7047c258af29fe4c39"
         },
@@ -22,15 +22,9 @@ window.BENCHMARK_DATA = {
         "tool": "go",
         "benches": [
           {
-            "name": "BenchmarkReplayLog",
-            "value": 108021724,
-            "unit": "ns/op\t      1000 commits",
-            "extra": "3 times\n8 procs"
-          },
-          {
-            "name": "BenchmarkReplayLog - ns/op",
-            "value": 108021724,
-            "unit": "ns/op",
+            "name": "BenchmarkReplayLog - s/op",
+            "value": 0.108021724,
+            "unit": "s/op",
             "extra": "3 times\n8 procs"
           },
           {
@@ -52,7 +46,7 @@ window.BENCHMARK_DATA = {
             "username": "ava-labs"
           },
           "id": "507f26018df2053782086e7047c258af29fe4c39",
-          "message": "feat(replay): performance action (5/5) ",
+          "message": "feat: update log file",
           "timestamp": "2026-03-20T20:06:49Z",
           "url": "https://github.com/ava-labs/firewood/pull/1594/commits/507f26018df2053782086e7047c258af29fe4c39"
         },
@@ -60,15 +54,9 @@ window.BENCHMARK_DATA = {
         "tool": "go",
         "benches": [
           {
-            "name": "BenchmarkReplayLog",
-            "value": 67690370,
-            "unit": "ns/op\t      1000 commits\t   5390718 ns/commit\t  62000077 ns/propose-on-db",
-            "extra": "3 times\n8 procs"
-          },
-          {
-            "name": "BenchmarkReplayLog - ns/op",
-            "value": 67690370,
-            "unit": "ns/op",
+            "name": "BenchmarkReplayLog - s/op",
+            "value": 0.06769037,
+            "unit": "s/op",
             "extra": "3 times\n8 procs"
           },
           {
@@ -78,15 +66,15 @@ window.BENCHMARK_DATA = {
             "extra": "3 times\n8 procs"
           },
           {
-            "name": "BenchmarkReplayLog - ns/commit",
-            "value": 5390718,
-            "unit": "ns/commit",
+            "name": "BenchmarkReplayLog - s/commit",
+            "value": 0.005390718,
+            "unit": "s/commit",
             "extra": "3 times\n8 procs"
           },
           {
-            "name": "BenchmarkReplayLog - ns/propose-on-db",
-            "value": 62000077,
-            "unit": "ns/propose-on-db",
+            "name": "BenchmarkReplayLog - s/propose-on-db",
+            "value": 0.062000077,
+            "unit": "s/propose-on-db",
             "extra": "3 times\n8 procs"
           }
         ]
