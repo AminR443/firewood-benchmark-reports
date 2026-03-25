@@ -210,7 +210,7 @@ window.BENCHMARK_DATA = {
             "username": "ava-labs"
           },
           "id": "5569cf32981d9e379d4f9c196a33f9c303f0144d",
-          "message": "feat(replay): performance action (5/5) ",
+          "message": "fix: new comment",
           "timestamp": "2026-03-24T21:47:08Z",
           "url": "https://github.com/ava-labs/firewood/pull/1594/commits/5569cf32981d9e379d4f9c196a33f9c303f0144d"
         },
@@ -218,15 +218,9 @@ window.BENCHMARK_DATA = {
         "tool": "go",
         "benches": [
           {
-            "name": "BenchmarkReplayLog",
-            "value": 64954801,
-            "unit": "ns/op\t      1000 commits\t   5110774 ns/commit\t  59562105 ns/propose-on-db",
-            "extra": "3 times\n8 procs"
-          },
-          {
-            "name": "BenchmarkReplayLog - ns/op",
-            "value": 64954801,
-            "unit": "ns/op",
+            "name": "BenchmarkReplayLog - s/op",
+            "value": 0.064954801,
+            "unit": "s/op",
             "extra": "3 times\n8 procs"
           },
           {
@@ -236,15 +230,15 @@ window.BENCHMARK_DATA = {
             "extra": "3 times\n8 procs"
           },
           {
-            "name": "BenchmarkReplayLog - ns/commit",
-            "value": 5110774,
-            "unit": "ns/commit",
+            "name": "BenchmarkReplayLog - s/commit",
+            "value": 0.005110774,
+            "unit": "s/commit",
             "extra": "3 times\n8 procs"
           },
           {
-            "name": "BenchmarkReplayLog - ns/propose-on-db",
-            "value": 59562105,
-            "unit": "ns/propose-on-db",
+            "name": "BenchmarkReplayLog - s/propose-on-db",
+            "value": 0.059562105,
+            "unit": "s/propose-on-db",
             "extra": "3 times\n8 procs"
           }
         ]
